@@ -1,0 +1,8 @@
+{
+  "servis_created": "👋 Halo {{nama}}\n\nOrder servis Anda telah diterima.\n\nNo. Servis: {{no_servis}}\nKendaraan: {{kendaraan}}\nTanggal Masuk: {{tanggal_masuk}}\nKilometer: {{kilometer}} km\n\nKeluhan: {{keluhan}}\n\nKami akan mengabari Anda jika ada pembaruan.",
+  "servis_processing": "🔧 Halo {{nama}}\n\nKendaraan Anda sedang kami proses servis.\n\nNo. Servis: {{no_servis}}\nKendaraan: {{kendaraan}}\nKilometer: {{kilometer}} km\n\nJika ada perubahan estimasi biaya atau waktu, kami akan menginformasikan segera.",
+  "servis_completed": "✅ Halo {{nama}}\n\nMobil Anda sudah selesai diservis dan siap diambil.\n\nNo. Servis: {{no_servis}}\nKendaraan: {{kendaraan}}\nKilometer: {{kilometer}} km\n\nSilakan datang ke bengkel pada jam kerja. Terima kasih.",
+  "servis_bulanan": "🛠️ Halo {{nama}}\n\nIni pengingat servis berkala bulanan untuk kendaraan Anda.\n\nNo. Servis Terakhir: {{no_servis}}\nKendaraan: {{kendaraan}}\nNo. Polisi: {{no_polisi}}\nServis Terakhir: {{tanggal_servis_terakhir}}\nJadwal Rekomendasi: {{tanggal_rekomendasi}}\n\nSilakan hubungi bengkel untuk booking jadwal servis.",
+  "transaksi_paid": "💳 Halo {{nama}}\n\nPembayaran untuk No. Servis {{no_servis}} telah dikonfirmasi Lunas.\nTotal: {{total}}\n\nTerima kasih telah menggunakan layanan kami.",
+  "test": "🔎 Ini pesan tes dari bengkel. Halo {{nama}}."
+}

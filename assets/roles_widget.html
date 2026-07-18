@@ -1,0 +1,59 @@
+<!-- Roles & Permissions Widget - can be included in dashboard.php -->
+<div class="card border-0 shadow-sm mb-4">
+  <div class="card-body">
+    <h5 class="fw-bold mb-3"><i class="fas fa-user-shield me-2 text-primary"></i>Hak Akses Utama</h5>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <div class="p-3 rounded" style="background:linear-gradient(135deg,#eef2ff,#dbeafe);">
+          <div class="d-flex align-items-start gap-2">
+            <div class="badge bg-primary text-white rounded-circle p-2"><i class="fas fa-user-cog"></i></div>
+            <div>
+              <div class="fw-semibold">Admin</div>
+              <div class="small text-muted">CRUD pelanggan, transaksi, users</div>
+            </div>
+          </div>
+          <ul class="small mt-2 mb-0">
+            <li>✅ CRUD Pelanggan</li>
+            <li>✅ CRUD Transaksi</li>
+            <li>✅ Manajemen User & Role</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="p-3 rounded" style="background:linear-gradient(135deg,#fff7ed,#ffedd5);">
+          <div class="d-flex align-items-start gap-2">
+            <div class="badge bg-warning text-dark rounded-circle p-2"><i class="fas fa-tools"></i></div>
+            <div>
+              <div class="fw-semibold">Mekanik</div>
+              <div class="small text-muted">Update status servis</div>
+            </div>
+          </div>
+          <ul class="small mt-2 mb-0">
+            <li>🔁 Update status servis (masuk → proses → selesai → diambil)</li>
+            <li>📝 Tambah diagnosis / catatan</li>
+            <li>❌ Tidak boleh menghapus pelanggan / user</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-3">
+        <div class="p-3 rounded" style="background:linear-gradient(135deg,#ecfdf5,#dcfce7);">
+          <div class="d-flex align-items-start gap-2">
+            <div class="badge bg-success text-white rounded-circle p-2"><i class="fas fa-chart-line"></i></div>
+            <div>
+              <div class="fw-semibold">Owner</div>
+              <div class="small text-muted">Melihat laporan & export</div>
+            </div>
+          </div>
+          <ul class="small mt-2 mb-0">
+            <li>📊 Akses laporan pendapatan & servis</li>
+            <li>⬇️ Export CSV / PDF</li>
+            <li>🔒 Read-only untuk data operasional</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-end small text-muted mt-2">Lihat detail: <a href="/KKP/docs/ROLE_PERMISSIONS.md">Role & Permissions</a></div>
+  </div>
+</div>
